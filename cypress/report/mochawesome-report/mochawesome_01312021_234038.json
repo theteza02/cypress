@@ -1,0 +1,339 @@
+{
+  "stats": {
+    "suites": 8,
+    "tests": 6,
+    "passes": 0,
+    "pending": 6,
+    "failures": 0,
+    "start": "2021-01-31T16:40:38.877Z",
+    "end": "2021-01-31T16:40:38.940Z",
+    "duration": 63,
+    "testsRegistered": 6,
+    "passPercent": null,
+    "pendingPercent": 100,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "04a4394d-f48c-43c4-8d9d-7b1270651060",
+      "title": "",
+      "fullFile": "cypress\\integration\\test\\test.spec.js",
+      "file": "cypress\\integration\\test\\test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7def6715-4c61-4b28-967c-c43d85a0f9a5",
+          "title": "templateTest version 1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "2b52d425-fe12-4082-9a98-b5922eba6bae",
+              "title": "ทดสอบ",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [],
+              "suites": [
+                {
+                  "uuid": "143ff99b-a971-4d36-a6a3-a474d3408d34",
+                  "title": "หมวดย่อยเทสเคส :: A",
+                  "fullFile": "",
+                  "file": "",
+                  "beforeHooks": [],
+                  "afterHooks": [],
+                  "tests": [
+                    {
+                      "title": "เทสย่อย level:: A",
+                      "fullTitle": "templateTest version 1 ทดสอบ หมวดย่อยเทสเคส :: A เทสย่อย level:: A",
+                      "timedOut": null,
+                      "duration": 0,
+                      "state": "pending",
+                      "speed": null,
+                      "pass": false,
+                      "fail": false,
+                      "pending": true,
+                      "context": null,
+                      "code": "",
+                      "err": {},
+                      "uuid": "e3ae05bf-42ae-4dbb-9b5f-05ef9643b48f",
+                      "parentUUID": "143ff99b-a971-4d36-a6a3-a474d3408d34",
+                      "isHook": false,
+                      "skipped": false
+                    }
+                  ],
+                  "suites": [],
+                  "passes": [],
+                  "failures": [],
+                  "pending": [
+                    "e3ae05bf-42ae-4dbb-9b5f-05ef9643b48f"
+                  ],
+                  "skipped": [],
+                  "duration": 0,
+                  "root": false,
+                  "rootEmpty": false,
+                  "_timeout": 2000
+                },
+                {
+                  "uuid": "49d26209-5ac0-45b1-8020-d603b34ee98d",
+                  "title": "หมวดย่อยเทสเคส :: B",
+                  "fullFile": "",
+                  "file": "",
+                  "beforeHooks": [],
+                  "afterHooks": [],
+                  "tests": [
+                    {
+                      "title": "เทสย่อย level:: B",
+                      "fullTitle": "templateTest version 1 ทดสอบ หมวดย่อยเทสเคส :: B เทสย่อย level:: B",
+                      "timedOut": null,
+                      "duration": 0,
+                      "state": "pending",
+                      "speed": null,
+                      "pass": false,
+                      "fail": false,
+                      "pending": true,
+                      "context": null,
+                      "code": "",
+                      "err": {},
+                      "uuid": "bac606fa-ad69-4c73-972f-f3debf4dbace",
+                      "parentUUID": "49d26209-5ac0-45b1-8020-d603b34ee98d",
+                      "isHook": false,
+                      "skipped": false
+                    }
+                  ],
+                  "suites": [],
+                  "passes": [],
+                  "failures": [],
+                  "pending": [
+                    "bac606fa-ad69-4c73-972f-f3debf4dbace"
+                  ],
+                  "skipped": [],
+                  "duration": 0,
+                  "root": false,
+                  "rootEmpty": false,
+                  "_timeout": 2000
+                },
+                {
+                  "uuid": "62f2c847-1981-4b93-ae82-ad0d2f874d76",
+                  "title": "หมวดย่อยเทสเคส :: C",
+                  "fullFile": "",
+                  "file": "",
+                  "beforeHooks": [],
+                  "afterHooks": [],
+                  "tests": [
+                    {
+                      "title": "เทสย่อย level:: C",
+                      "fullTitle": "templateTest version 1 ทดสอบ หมวดย่อยเทสเคส :: C เทสย่อย level:: C",
+                      "timedOut": null,
+                      "duration": 0,
+                      "state": "pending",
+                      "speed": null,
+                      "pass": false,
+                      "fail": false,
+                      "pending": true,
+                      "context": null,
+                      "code": "",
+                      "err": {},
+                      "uuid": "13b6549f-6b69-4d96-991d-72456de36890",
+                      "parentUUID": "62f2c847-1981-4b93-ae82-ad0d2f874d76",
+                      "isHook": false,
+                      "skipped": false
+                    }
+                  ],
+                  "suites": [],
+                  "passes": [],
+                  "failures": [],
+                  "pending": [
+                    "13b6549f-6b69-4d96-991d-72456de36890"
+                  ],
+                  "skipped": [],
+                  "duration": 0,
+                  "root": false,
+                  "rootEmpty": false,
+                  "_timeout": 2000
+                },
+                {
+                  "uuid": "ed5d5b3a-3164-4296-984e-e53c68383bee",
+                  "title": "หมวดย่อยเทสเคส :: D",
+                  "fullFile": "",
+                  "file": "",
+                  "beforeHooks": [],
+                  "afterHooks": [],
+                  "tests": [
+                    {
+                      "title": "เทสย่อย level:: D",
+                      "fullTitle": "templateTest version 1 ทดสอบ หมวดย่อยเทสเคส :: D เทสย่อย level:: D",
+                      "timedOut": null,
+                      "duration": 0,
+                      "state": "pending",
+                      "speed": null,
+                      "pass": false,
+                      "fail": false,
+                      "pending": true,
+                      "context": null,
+                      "code": "",
+                      "err": {},
+                      "uuid": "88d3ae81-94f7-4036-8647-3248f0ccf24c",
+                      "parentUUID": "ed5d5b3a-3164-4296-984e-e53c68383bee",
+                      "isHook": false,
+                      "skipped": false
+                    }
+                  ],
+                  "suites": [],
+                  "passes": [],
+                  "failures": [],
+                  "pending": [
+                    "88d3ae81-94f7-4036-8647-3248f0ccf24c"
+                  ],
+                  "skipped": [],
+                  "duration": 0,
+                  "root": false,
+                  "rootEmpty": false,
+                  "_timeout": 2000
+                },
+                {
+                  "uuid": "137d644b-3f34-4c20-8152-57e2a3d0b7cc",
+                  "title": "หมวดย่อยเทสเคส :: E",
+                  "fullFile": "",
+                  "file": "",
+                  "beforeHooks": [],
+                  "afterHooks": [],
+                  "tests": [
+                    {
+                      "title": "เทสย่อย level:: E",
+                      "fullTitle": "templateTest version 1 ทดสอบ หมวดย่อยเทสเคส :: E เทสย่อย level:: E",
+                      "timedOut": null,
+                      "duration": 0,
+                      "state": "pending",
+                      "speed": null,
+                      "pass": false,
+                      "fail": false,
+                      "pending": true,
+                      "context": null,
+                      "code": "",
+                      "err": {},
+                      "uuid": "9a00ad41-05c1-46e0-9f6a-e592198b135d",
+                      "parentUUID": "137d644b-3f34-4c20-8152-57e2a3d0b7cc",
+                      "isHook": false,
+                      "skipped": false
+                    }
+                  ],
+                  "suites": [],
+                  "passes": [],
+                  "failures": [],
+                  "pending": [
+                    "9a00ad41-05c1-46e0-9f6a-e592198b135d"
+                  ],
+                  "skipped": [],
+                  "duration": 0,
+                  "root": false,
+                  "rootEmpty": false,
+                  "_timeout": 2000
+                },
+                {
+                  "uuid": "900c8ef3-ed41-425c-b324-2a16cbae6a6d",
+                  "title": "หมวดย่อยเทสเคส :: F",
+                  "fullFile": "",
+                  "file": "",
+                  "beforeHooks": [],
+                  "afterHooks": [],
+                  "tests": [
+                    {
+                      "title": "เทสย่อย level:: F",
+                      "fullTitle": "templateTest version 1 ทดสอบ หมวดย่อยเทสเคส :: F เทสย่อย level:: F",
+                      "timedOut": null,
+                      "duration": 0,
+                      "state": "pending",
+                      "speed": null,
+                      "pass": false,
+                      "fail": false,
+                      "pending": true,
+                      "context": null,
+                      "code": "",
+                      "err": {},
+                      "uuid": "dfdf24b1-9c0c-4a5c-a5eb-6962ab2f7d78",
+                      "parentUUID": "900c8ef3-ed41-425c-b324-2a16cbae6a6d",
+                      "isHook": false,
+                      "skipped": false
+                    }
+                  ],
+                  "suites": [],
+                  "passes": [],
+                  "failures": [],
+                  "pending": [
+                    "dfdf24b1-9c0c-4a5c-a5eb-6962ab2f7d78"
+                  ],
+                  "skipped": [],
+                  "duration": 0,
+                  "root": false,
+                  "rootEmpty": false,
+                  "_timeout": 2000
+                }
+              ],
+              "passes": [],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "5.1.0"
+    }
+  }
+}

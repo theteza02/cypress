@@ -6,9 +6,11 @@
         "json": true,
         "timestamp": "mmddyyyy_HHMMss"
      },
-     "screenshotsFolder": "cypress/report/mochawesome-report/assets/screenshot/",
-    "waitForAnimations":true,
-    "pageLoadTimeout":60000,
-    "requestTimeout":60000,
-    "responseTimeout":60000
+
+
+   
+    
+     "screenshotsFolder": "cypress/report/mochawesome-report/assets/screenshot/"
+
+    
 }

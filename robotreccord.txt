@@ -1,0 +1,55 @@
+Open Browser    https://shelf.tbeta.co/YELLOWTOPUP/SPLASH%20PAGE    ${BROWSER}
+Click Element       //*[@id="buttonSubmit"] 
+Click Element        css=.btn-srn > svg
+Click Element       //*[@id="zoomOut"]
+Click Element       //*[@id="zoomOut"]
+Click Element       //*[@id="zoomOut"]
+Click Element       //*[@id="zoomOut"]
+Click Element       //*[@id="zoomOut"]
+Click Element       //*[@id="zoomOut"]
+Click Element       //*[@id="zoomOut"]
+Click Element       //*[@id="zoomOut"]
+Click Element       //*[@id="zoomOut"]
+Click Element       //*[@id="zoomOut"]  
+Click Element       //*[@id="zoomIn"]
+Click Element       //*[@id="zoomIn"]
+Click Element       //*[@id="zoomIn"]
+Click Element       //*[@id="zoomIn"]
+Click Element       //*[@id="zoomIn"]
+Click Element       //*[@id="zoomIn"]
+Click Element        css=.ui-chkbox-box
+Click Element       //*[@id="buttonSubmit"]
+Click Element       //*[@id="checkbox2"]
+Click Element       //*[@id="buttonNextPate"]    
+Click Element       //*[@id="buttonSubmit"]
+Input Text    //input[@name="cardID"]    1-1005-00346-34-5
+Input Text    //input[@name="cusPerAddress"]    2398/307
+Input Text    //input[@name="laserCard"]    rp1-2345678-90
+Input Text    //input[@name="cusPerSubDistrict"]    คลองสาม
+input text    //*[@id="perDistrict"]/div/div/div[2]/input  คลองหลวง
+click Element   //*[contains(text(), "คลองหลวง")]
+Input Text    //input[@name="firstName"]    ที
+Input Text    //input[@name="lastName"]    ทดสอบ
+Input Text    //input[@name="perProvince"]    ปทุมธานี
+Input Text    //input[@name="perPostCode"]    12120
+Click Element   //*[@id="dateOfBirth"]
+click element  //*[contains(text(), "พ.ศ. 2532")]
+click element  //*[contains(text(), "ก.ค.")]
+click element  //tbody[contains(@class, "mat-calendar-body")]/tr[3]/td[3]/div
+Click Element  //div[@class="ui-chkbox-box ui-widget ui-corner-all ui-state-default"]
+Click Element  //div[@class="danger ng-star-inserted"]
+Input Text    //input[@name="cusPhoneNumber"]    091-7452806
+click element  //*[@id="occupation"]/div
+Sleep    1s
+Input Text    xpath=(//input)[18]    พนัก
+click element  //*[contains(text(), "พนักงานขนส่งสินค้า, พนักงานส่งเอกสาร")]
+Input Text    xpath=(//input)[19]    การซ่อมอุปกรณ์ขนส่งอื่นๆ (ยกเว้นยานยนต์) - หมวดการผลิต
+click element  //*[contains(text(), "การซ่อมอุปกรณ์ขนส่งอื่นๆ (ยกเว้นยานยนต์) - หมวดการผลิต")]
+Input Text    //input[@name="companyName"]    กรุงเทพ
+Click Element    xpath=(//div[@class="col-lg-6 ng-star-inserted"])[3]
+Input Text    //input[@name="officeAddress"]    110050021/305
+Input Text    //input[@name="income1"]    50000
+Input Text    //input[@name="expend1"]    20000
+Input Text    //input[@name="expend6"]    10000
+Click Element    //button[@class="btn btn-wider btn-primary mt-3 mb-5"]
+ 

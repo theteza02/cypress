@@ -1,0 +1,6 @@
+*** Settings ***
+Library           SeleniumLibrary
+*** Variables ***
+${PAGE}      https://shelf.tbeta.co/YELLOWTOPUP?sub_state=state2
+${BROWSER}        Chrome
+*** Test Cases ***
